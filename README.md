@@ -40,8 +40,16 @@ Here's an unordered list, with:
 > > It should be in block quotes!
 > > > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
+# This is a large heading
+Inline code: `make this word inline.` 
 
-Inline: `This is a large heading` 
+# This is a large heading.
+Format this text as code.
+```
+def foo():
+    if not bar:
+        return True
+```
 
 
 ![alt text](https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.)
