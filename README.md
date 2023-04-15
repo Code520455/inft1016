@@ -41,7 +41,7 @@ Here's an unordered list, with:
 > > > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 # This is a large heading
-Inline code: `make this word inline.` 
+`Inline code:` make this word inline. 
 
 # This is a large heading.
 Format this text as code.
