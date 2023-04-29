@@ -42,16 +42,10 @@ aside{
 
 
 
-div.0{
+div.sh{
     border-style: solid;
     border-width: 3px;
     border-color: #2AA198;
-}
-div{
-    border-style: solid;
-    border-width: 3px;
-    border-color: #2AA198;
-    
 }
 
 nav {
@@ -61,4 +55,7 @@ nav {
 
 body{
     max-width: 800px;
+}
+h2{
+    color:  #B58900;
 }
