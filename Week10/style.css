@@ -1,17 +1,3 @@
-
-
-base-font-color         131 148 150     #839496
-secondary-font-color    88 110 117      #586E75
-emphasised-font         147 161 161     #93A1A1
-
-c-background-color      0  43  54      #002B36
-c-background-highlights 7  54  66      #073642
-
-c-yellow      181 137   0       #B58900
-c-orange      203  75  22       #CB4B16
-c-red         220  50  47       #DC322F
-c-magenta     211  54 130       #D33682
-c-violet      108 113 196       #6C71C4
-c-blue        38 139 210        #268BD2
-c-cyan        42 161 152        #2AA198
-c-green       133 153   0       #859900
+body{
+    background-color:  #002B36;
+  }
