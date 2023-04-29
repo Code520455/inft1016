@@ -4,19 +4,22 @@ body{
 header{
     background-color: #073642;
 }
+.h-color{
+    color:#839496
+}
 
 footer{
     background-color: #073642 ;
 }
+.f-color{
+    color:#839496
+}
 
 main{
-    background-color: #839496 ;
+    background-color: #002B36 ;
 }
-header{
-    background-color: #839496 ;
-}
-footer{
-    background-color: #839496;
+.m-color{
+    color:#839496
 }
 
 a{
