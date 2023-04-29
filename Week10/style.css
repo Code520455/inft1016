@@ -32,6 +32,9 @@ h1{
     
 }
 
+ul.a{
+    list-style-type: none;
+}
 aside{
     color:#859900;
 
@@ -51,8 +54,11 @@ div{
     
 }
 
-nav{
+nav {
     list-style-type: none;
-    text-align: center;
-    display: flex;
+}
+
+
+body{
+    max-width: 800px;
 }
