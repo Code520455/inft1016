@@ -7,6 +7,7 @@ header{
 
 footer{
     background-color: #073642 ;
+    text-align: center;
 }
 .f-color{
     color:#839496
@@ -32,8 +33,12 @@ h1{
     
 }
 
-ul.a{
+nav ul a{
     list-style-type: none;
+}
+
+nav li{
+    display: inline;
 }
 aside{
     color:#859900;
@@ -41,15 +46,10 @@ aside{
 }
 
 
-
 div.sh{
     border-style: solid;
     border-width: 3px;
     border-color: #2AA198;
-}
-
-nav {
-    list-style-type: none;
 }
 
 
@@ -63,4 +63,15 @@ h2{
 .cl:hover{
     background-color: #268BD2;
 
+}
+h1{
+    padding-top: 50px;
+}
+
+h2{
+    padding-top: 50px;
+}
+
+h3{
+    padding-top: 50px;
 }
