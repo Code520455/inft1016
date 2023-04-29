@@ -18,3 +18,10 @@ header{
 footer{
     background-color: #839496;
 }
+
+a{
+    color:#D33682;
+}
+a:hover{
+    color: #CB4B16;
+}
