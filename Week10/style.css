@@ -1,3 +1,14 @@
 body{
     background-color:  #002B36;
   }
+header{
+    background-color: #073642;
+}
+
+footer{
+    background-color: #073642 ;
+}
+
+main{
+    background-color: #839496 ;
+}
