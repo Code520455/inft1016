@@ -4,9 +4,6 @@ body{
 header{
     background-color: #073642;
 }
-.h-color{
-    color:#839496
-}
 
 footer{
     background-color: #073642 ;
@@ -27,4 +24,9 @@ a{
 }
 a:hover{
     color: #CB4B16;
+}
+h1{
+    text-align: center; 
+    font-size: 150% ;
+    color: #B58900;
 }
