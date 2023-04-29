@@ -1,49 +1,17 @@
 
 
-h1 {font-size: 1.33em;}
-h2 {font-size: 1.17em;}
+base-font-color         131 148 150     #839496
+secondary-font-color    88 110 117      #586E75
+emphasised-font         147 161 161     #93A1A1
 
-p {margin: 0 0 0.5em 0;}
+c-background-color      0  43  54      #002B36
+c-background-highlights 7  54  66      #073642
 
-h1, h2 {margin: 10pt 0 2pt 0;}
-
-
-p:first-of-type {
-font-size: 2.17em;
-line-height: 1.33;
-font-family: Verdana, sans-serif;
-}
-p {text-indent: 5em;}
-
-body {  
-    background: rgb(216, 24, 24) url(image.gif) repeat fixed top left;  
-}
-
-
-
-
-
-
-@media screen {  
-    body {  
-      color: black;  
-      ;background-color: yellow;  
-    }  
-  }
-  
-  @media print {  
-    body {  
-      color: black;  
-      background-color: white;  
-    }
-  }
-  
-
-  media="screen, print,tty"  
-
-@media screen, print, projector {  
-  body {  
-    color: black;  
-    background-color: yellow;  
-  }  
-}
+c-yellow      181 137   0       #B58900
+c-orange      203  75  22       #CB4B16
+c-red         220  50  47       #DC322F
+c-magenta     211  54 130       #D33682
+c-violet      108 113 196       #6C71C4
+c-blue        38 139 210        #268BD2
+c-cyan        42 161 152        #2AA198
+c-green       133 153   0       #859900
