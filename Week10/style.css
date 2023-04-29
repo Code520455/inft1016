@@ -31,7 +31,67 @@ h1{
     color: #B58900;
 }
 
-ul{
+ul.a{
     list-style-type: none;
     text-align: center;
+}
+aside{
+    color:#859900;
+
+}
+
+h3.b{
+    border-style: solid;
+    border-width: 3px ;
+    border-color: #2AA198;
+}
+p.c{
+    border-style: solid;
+    border-width: 3px ;
+    border-color: #2AA198;
+}
+
+li.d{
+    color: #DC322F;
+    
+}
+li.d:hover{
+    background-color:#268BD2 ;
+}
+
+
+li.e{
+    color: #DC322F;
+    
+}
+li.e:hover{
+    background-color:#268BD2 ;
+}
+
+li.f{
+    color: #DC322F;
+    
+}
+li.f:hover{
+    background-color:#268BD2 ;
+}
+
+li.g{
+    color: #DC322F;
+    
+}
+li.g:hover{
+    background-color:#268BD2 ;
+}
+
+li.h{
+    color: #DC322F;
+    
+}
+li.h:hover{
+    background-color:#268BD2 ;
+}
+
+body,html{
+    max-width: 800px;
 }
