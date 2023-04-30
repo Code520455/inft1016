@@ -21,3 +21,9 @@ a{
 a:hover{
     color: #FF793B
 }
+
+.box{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2AA198;
+}
