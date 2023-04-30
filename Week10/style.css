@@ -1,5 +1,6 @@
 body{
     background-color: #002B36;
+    max-width: 800px;
 }
 
 header{
@@ -35,5 +36,22 @@ nav ul{
 }
 
 nav ul li{
-    text
+    text-align: center;
+    display: inline-flex;
 }
+
+aside{
+    color:#859900;
+}
+
+aside ul li{
+    color: #DC322F ;
+}
+aside ul li:hover{
+    color: #268BD2;
+}
+p{
+    text-indent: 5em;
+}
+
+
