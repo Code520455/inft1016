@@ -4,7 +4,9 @@ body{
 
 header{
     background-color: #073642;
-    color: #839496;
+    color: #B58900;
+    font-size: 150%;
+    text-align: center;
 }
 
 footer{
@@ -26,4 +28,12 @@ a:hover{
     border-style: solid;
     border-width: 3px;
     border-color: #2AA198;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    text
 }
