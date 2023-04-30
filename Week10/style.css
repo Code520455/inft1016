@@ -44,14 +44,21 @@ aside{
     color:#859900;
 }
 
-aside ul li{
+aside ul li a{
     color: #DC322F ;
 }
-aside ul li:hover{
+aside ul li a:hover{
     color: #268BD2;
 }
 p{
     text-indent: 5em;
 }
-
-
+h2{
+    color: #B58900;
+}
+article h2{
+    padding-top: 50px;
+}
+article h3{
+    padding-top: 50px;
+}
