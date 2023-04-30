@@ -1,82 +1,14 @@
 body{
-    background-color:  #002B36;
-  }
+    background-color: #002B36;
+}
+
 header{
     background-color: #073642;
 }
 
 footer{
-    background-color: #073642 ;
-    text-align: center;
+    background-color: #073642;
 }
-.f-color{
-    color:#839496
-}
-
 main{
-    background-color: #002B36 ;
-}
-.m-color{
-    color:#839496
-}
-
-a{
-    color:#D33682;
-}
-a:hover{
-    color: #CB4B16;
-}
-h1{
-    text-align: center; 
-    font-size: 150% ;
-    color: #B58900;
-    
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav li{
-    display: inline;
-    color: #268BD2;
-}
-aside{
-    color:#859900;
-
-}
-
-
-div.sh{
-    border-style: solid;
-    border-width: 3px;
-    border-color: #2AA198;
-}
-
-
-body{
-    max-width: 800px;
-}
-h2{
-    color:  #B58900;
-}
-
-.cl:hover{
-    background-color: #268BD2;
-
-}
-h1{
-    padding-top: 50px;
-}
-
-h2{
-    padding-top: 50px;
-}
-
-h3{
-    padding-top: 50px;
-}
-
-p{
-    text-indent: 5em;
+    color: ;
 }
