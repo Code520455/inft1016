@@ -8,6 +8,11 @@
     justify-content: center;
     align-items:center ;
 }
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
 .navbar{
     display: flex;
 
@@ -17,7 +22,7 @@
     background-color: beige;
 }
 .nav-list li{
-    
+    list-style: none;
 }
 .nav-list li a{
     
