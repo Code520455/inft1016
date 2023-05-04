@@ -25,6 +25,7 @@
     list-style: none;
 }
 .nav-list li a{
+    text-decoration: none;
     
 }
 .rightNav{
