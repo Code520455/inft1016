@@ -27,9 +27,9 @@
     list-style: none;
     padding: 26px 30px;
 }
-.nav-list li a{
+.nav-list li a:hover{
     text-decoration: none;
-    color: ;
+    color: white;
     
 }
 .rightNav{
