@@ -29,11 +29,17 @@
 }
 .nav-list li a:hover{
     text-decoration: none;
-    color: white;
+    color: grey;
     
 }
 .rightNav{
     background-color: blueviolet;
     width: 50%;
     text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
 }
