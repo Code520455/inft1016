@@ -25,6 +25,7 @@
 }
 .nav-list li{
     list-style: none;
+    padding: 26px 30px;
 }
 .nav-list li a{
     text-decoration: none;
