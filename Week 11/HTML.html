@@ -5,13 +5,14 @@
     <script>
         counter = 0
 
-    function countClicks1(){
+    function countClicks1() {
         counter = counter + 1
         var output = 'The link was pressed' + counter +'times';
         var element = document.getElementById('boxy')
         element.innerHTML = output;
 
     }
+    
     function countClicks2(element){
         counter = counter + 1
         var output= 'The link was pressed' + counter + 'times.';
@@ -24,15 +25,17 @@
     <h1>JavaScript Task 1</h1>
     <a href="#" onclick="alert('good programmer!');"> Click me </a>
     <h1>JavaScript Task 2</h1>
-    <a href="#" onclick= "document.getElementById('happybox').innerHTML = 'You clicked it!' ;"> Click me</a>
+    <p id="box"></p>
+    <a href="#" onclick = "document.getElementById('box').innerHTML = 'You clicked it!';"> Click me </a>    
     <h1> JavaScript Task 3</h1>
-    <a href="#" onclick="document.getElementById('box2').innerHTML = '<li>The link was pressed 1 times.</li>';"> Click me</a>
+    <p id="box2"></p>
+    <a href="#" onclick="document.getElementById('box2').innerHTML = '<li>The link was pressed 1 times.</li>'"> Click me</a>
     <h1>JavaScript Task 4</h1>
     <a href="#" onclick="countClicks1();">Click me</a>
     <p id="boxy"></p>
     <h1>JavaScript Task 5</h1>
     <a href="#" onclick="countClicks2(this);">Click me</a>
     <h1>JavaScript Task 6</h1>
-    <img onmouseover="this . src='http://www.outgrabe.net/cat01.jpg'" onmouseout="this.src='http://www.outgrabe.net/cat02.jpg'"></img>
+    <img src="http://www.outgrabe.net/cat01.jpg" onmouseover="this.src='http://www.outgrabe.net/cat02.jpg'" />
 </body>
 </html>
