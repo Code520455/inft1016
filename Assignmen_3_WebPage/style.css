@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+
+}
+
+.nav-list{
+    width: 50%;
+    background-color: yellow;
+
+
+}
+.nav-list li{
+
+}
+
+.nav-list li a{
+
+}
+.rightnav{
+    background-color: black;
+    width: 50%;
+    text-align: right;
+}
