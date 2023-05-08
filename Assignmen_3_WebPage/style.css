@@ -90,3 +90,10 @@
     border-radius: 150px;
     margin: auto;
     }
+
+.text-big{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 18px ;
+}
