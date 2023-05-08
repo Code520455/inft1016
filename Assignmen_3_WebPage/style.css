@@ -79,7 +79,7 @@
     height: 100vh;
 }
 .firsthalf{
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;}
@@ -103,4 +103,7 @@
     border: 2px solid white;
     border-radius: 8px;
     font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
 }
