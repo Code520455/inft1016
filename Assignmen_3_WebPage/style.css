@@ -66,6 +66,9 @@
     align-items: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
 }
 .firstsection{
     height: 100vh;
@@ -75,3 +78,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    display: block;
+    border-radius: 150px;
+    margin: auto;
+    }
