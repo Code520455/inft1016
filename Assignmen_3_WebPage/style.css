@@ -112,3 +112,10 @@
     padding: 6px 10px;
     vertical-align: middle;
 }
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
