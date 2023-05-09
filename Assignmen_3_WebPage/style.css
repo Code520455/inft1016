@@ -112,6 +112,10 @@
     padding: 6px 10px;
     vertical-align: middle;
 }
+.btn-dark{
+    color: black;
+    border:2px solid black;
+}
 
 .secRight{
     height: 500px;
@@ -123,4 +127,26 @@
 }
 .paras{
     padding: 0px 60px;
+}
+.contact{
+    background-color: cornsilk;
+    height: 533px;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+.form{
+    max-width: 500px;
+    margin: 42px auto;
+}
+.form input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+
 }
