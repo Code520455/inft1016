@@ -1,10 +1,10 @@
-burger = document.getElementsByClassName('burger');
+burger = document.querySelector('burger');
 navbar = document.querySelector('navbar');
 navlist = document.querySelector('navlist');
 rightnav = document.querySelector('rightnav');
 
 
-burger.addEventListener("click", function(){
+burger.addEventListener("click",  ()=>{
 
     // if (document.getElementsByClassName("secondhalf").style.dispaly === "none") {
     //     document.getElementsByClassName("secondhalf").style.dispaly =="block";
@@ -14,9 +14,9 @@ burger.addEventListener("click", function(){
     
 
 
-    // rightnav.classList.toggle('v-class-resp');
+    rightnav.classList.toggle('v-class-resp');
 
-    // navlist.classList.toggle('v-class-resp');
+    navlist.classList.toggle('v-class-resp');
 
-    // navbar.classList.toggle('h-nav-resp')
+    navbar.classList.toggle('h-nav-resp')
 });
