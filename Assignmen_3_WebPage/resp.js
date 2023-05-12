@@ -1,18 +1,10 @@
 burger = document.querySelector('burger');
 navbar = document.querySelector('navbar');
-navlist = document.querySelector('navlist');
+navlist = document.querySelector('nav-list');
 rightnav = document.querySelector('rightnav');
 
 
 burger.addEventListener("click",  ()=>{
-
-    // if (document.getElementsByClassName("secondhalf").style.dispaly === "none") {
-    //     document.getElementsByClassName("secondhalf").style.dispaly =="block";
-    //   } else {
-    //     document.getElementsByClassName("secondhalf").style.dispaly = "none";
-    //   }
-    
-
 
     rightnav.classList.toggle('v-class-resp');
 
