@@ -150,3 +150,15 @@
     border-radius: 6px;
 
 }
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'ubuntu',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@media screen (max-width: 1140px) {
+    
+}
