@@ -96,7 +96,7 @@
     font-size: 40px;
 }
 .text-small{
-    font-size: 18px ;
+    font-size: 26px ;
 }
 .btn{
     padding: 5px 20px;
@@ -180,7 +180,7 @@
     flex-direction: column;}
     .navbar{
         flex-direction: column;
-        transform:all 0.7s ease-out;
+        transition:all 5.7s ease-out;
     }
     .rightnav{
         text-align: center;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
+
     <title>Bird Picture</title>
 </head>
 <body>
@@ -26,6 +27,7 @@
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
+
         </div>
     </nav>
     <section class="background firstsection">
@@ -33,16 +35,15 @@
             <div class="firsthalf">
                 <p class="text-big">The bird is here</p>
                 <p class="text-small">Bird is very important for nature</p>
+            </div>
             <div class="buttons">
                 <button class="btn">Subscribe</button>
                 <button class="btn">Watch video</button>
-
-
-            </div>
             </div>
             <div class="secondhalf">
                 <img src="bird.jpg" alt="Bird Image">
             </div>
+
         </div>
 
 
@@ -57,6 +58,46 @@
         </div>
     
     </section>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myText").value;
+          document.getElementById("heading").textContent = "Hello, " + x + "!";
+          localStorage.setItem("username", x);
+        }
+        var storedName = localStorage.getItem("username");
+  if (storedName) {
+    document.getElementById("heading").textContent = "Hello, " + storedName + "!";
+  }
+</script>
+  <img id="bird-image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
+  <button onclick="showPardalote()">Pardalote</button>
+  <button onclick="showPurpleSwamp()">Purple Swamp</button>
+  <button onclick="showWhiteHeadedStilt()">White-headed Stilt</button>
+  <button onclick="showInlandThornbill()">Inland Thornbill</button>
+  <button onclick="showRoseRobin()">Rose Robin</button>
+
+  <script>
+    function showPardalote() {
+      document.getElementById("bird-image").src = "http://www.outgrabe.net/bird00.jpg";
+    }
+function showPurpleSwamp() {
+   document.getElementById("bird-image").src = "http://www.outgrabe.net/bird01.jpg";
+ }
+ function showWhiteHeadedStilt() {
+   document.getElementById("bird-image").src = "http://www.outgrabe.net/bird02.jpg";
+ }
+
+ function showInlandThornbill() {
+   document.getElementById("bird-image").src = "http://www.outgrabe.net/bird03.jpg";
+ }
+ function showRoseRobin() {
+   document.getElementById("bird-image").src = "http://www.outgrabe.net/bird04.jpg";
+ }
+
+</script>
+
     <section class="contact">
         <h1 class="text-center">Contact Us</h1>
         <div class="form">
@@ -69,17 +110,6 @@
     <footer class="background">      
         <p class="text-footer">©Copyright 2023 by Rahul. All rights reversed.</p>    
       </footer>
-    <script src="resp.js">
-
-burger.addEventListener("click",  ()=>{
-
-rightnav.classList.toggle('v-class-resp');
-
-navlist.classList.toggle('v-class-resp');
-
-navbar.classList.toggle('h-nav-resp')
-});
-    </script>
-  
+      <script src="resp.js"></script>
 </body>
 </html>
